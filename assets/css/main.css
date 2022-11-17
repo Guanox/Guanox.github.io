@@ -12,7 +12,7 @@ img {
 .head {
 
   color: #fff;
-  min-height: 100vh;
+  min-height: 40vh;
 
   display: -webkit-box;
 
@@ -82,7 +82,7 @@ img {
 .head-punchline {
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   text-align: center;
-  color: #fff;
+  /* color: rgba(255, 255, 255, 0); */
   margin-top: 10px;
   font-size: 20px;
   font-size: 1.25rem;
@@ -166,7 +166,7 @@ img {
   max-width: 768px;
   margin: 60px auto;
   padding: 20px 0;
-  min-height: 100vh;
+  min-height: 40vh;
 
   display: -webkit-box;
 
@@ -205,7 +205,7 @@ img {
   font-weight: bold;
 }
 
-.section-wrapper:nth-child(odd) {
+/* .section-wrapper:nth-child(odd) {
   background: url(../images/background.png);
   background-repeat: repeat;
 }
@@ -220,7 +220,7 @@ img {
 
 .section-wrapper:nth-child(odd) .paragraph-text {
   color: #fff;
-}
+} */
 
 .paragraph-text {
   font-family: 'PT Sans', sans-serif;
