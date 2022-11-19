@@ -145,6 +145,17 @@ img {
   margin: 0 auto;
 }
 
+.technical-skills img {
+  width: 130px;
+  height: 130px;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .center-align {
   text-align: center;
 }
@@ -387,8 +398,8 @@ img {
 }
 
 .cert-pic {
-  width: 170px;
-  height: 170px;
+  width: 120;
+  height: 120;
 }
 
 .profile-pic:hover {
