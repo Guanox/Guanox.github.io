@@ -14,5 +14,7 @@ email: kajprintz@gmail.com
 # absolute or relative
 profile_picture: assets/images/pp.jpg
 
+cv: assets/pdf/CV.pdf
+
 # Google Analytics ID
 google_analytics: 
