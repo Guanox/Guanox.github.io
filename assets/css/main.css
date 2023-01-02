@@ -131,6 +131,7 @@ img {
 .progress-bars {
   margin-top: 30px;
   overflow-y: scroll;
+  min-height: fit-content;
   max-height: 270px;
 }
 
