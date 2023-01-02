@@ -131,7 +131,7 @@ img {
 .progress-bars {
   margin-top: 30px;
   overflow-y: auto;
-  max-height: 30px;
+  max-height: 270px;
 }
 
 .skills-grid {
