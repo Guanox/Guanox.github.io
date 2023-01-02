@@ -129,6 +129,7 @@ img {
 }
 
 .progress-bars {
+  padding-right: 20px;
   margin-top: 30px;
   overflow-y: auto;
   min-height: fit-content;
