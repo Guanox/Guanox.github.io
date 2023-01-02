@@ -17,9 +17,8 @@
 	-moz-transition-property:width, background-color;
 	-ms-transition-property:width, background-color;
 	-o-transition-property:width, background-color;
-  transition-property:width, background-color;
+  	transition-property:width, background-color;
 	font-family: 'PT Sans', sans-serif;  
-	/*box-shadow: 4px 4px 3px 1px rgba(0, 0, 0, 0.24);*/
 }
 
 .skillbar-title {
