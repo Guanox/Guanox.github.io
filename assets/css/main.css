@@ -129,11 +129,13 @@ img {
 }
 
 .progress-bars {
-  padding-right: 20px;
+  padding-right: 15px;
   margin-top: 30px;
   overflow-y: auto;
   min-height: fit-content;
   max-height: 255px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .skills-grid {
@@ -147,6 +149,10 @@ img {
 .technical-skills {
   width: 90%;
   margin: 0 auto;
+}
+
+.technologies {
+  margin-left: -15px;
 }
 
 .technical-skills img {
