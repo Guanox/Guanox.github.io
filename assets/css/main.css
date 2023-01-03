@@ -130,12 +130,13 @@ img {
 
 .progress-bars {
   padding-right: 15px;
-  margin-top: 30px;
+  margin-top: 20px;
   overflow-y: auto;
   min-height: fit-content;
   max-height: 255px;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 2px;
 }
 
 .skills-grid {
