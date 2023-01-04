@@ -18,3 +18,8 @@
 .skill-card:hover {
     transform: scale(1.2);
 }
+
+
+.skill-description-container {
+    display: none;
+  }
