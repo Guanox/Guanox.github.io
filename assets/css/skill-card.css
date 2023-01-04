@@ -19,11 +19,6 @@
     transform: scale(1.2);
 }
 
-
-.skill-description-container {
-    display: none;
-  }
-
 .skill-description {
     user-select: none;
     background: white;

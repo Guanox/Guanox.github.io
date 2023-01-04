@@ -16,6 +16,6 @@ skillCards.forEach(skillCard => {
 
     skillCard.addEventListener('mouseout', event => {
         // Hide the skill-description-container element
-        skillDescriptionContainer.style.display = 'none';
+        skillDescription.textContent = '';
     });
 });
