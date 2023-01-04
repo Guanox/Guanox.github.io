@@ -24,6 +24,10 @@
     transform: scale(1.2);
 }
 
+.skill-card-shake:hover {
+    animation-play-state: paused;
+}
+
 
 .skill-description-container {
     height: 20px;
