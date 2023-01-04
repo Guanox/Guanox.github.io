@@ -17,6 +17,7 @@
 .skill-card-shake {
     animation: shake 1s;
     animation-iteration-count: 2;
+    animation-fill-mode: forwards;
 }
 
 
@@ -25,7 +26,7 @@
 }
 
 .skill-card-shake:hover {
-    animation-play-state: paused;
+    animation: none;
 }
 
 
