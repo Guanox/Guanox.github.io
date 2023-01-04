@@ -26,7 +26,6 @@
 
 .skill-description {
     user-select: none;
-    display: none;
     background: white;
     font-family: 'PT Sans', sans-serif;
     border: 1px solid #ddd;
