@@ -17,7 +17,6 @@
 .skill-card-shake {
     animation: shake 1.5s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
 
 
@@ -75,6 +74,6 @@
         transform: translate(0.5px, 1px) rotate(0deg);
     }
     100% {
-        transform: translate(0.5px, -1px) rotate(-0.5deg);
+        transform: translate(0px, 0px) rotate(0deg);
     }
 }
