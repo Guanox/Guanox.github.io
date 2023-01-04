@@ -137,6 +137,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 2px;
+  padding: 10px;
 }
 
 .skills-grid {
