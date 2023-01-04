@@ -23,3 +23,8 @@
 .skill-description-container {
     display: none;
   }
+
+.skill-description {
+    user-select: none;
+    display: none;
+}
