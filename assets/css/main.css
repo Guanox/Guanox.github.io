@@ -455,6 +455,7 @@ img {
   box-shadow: 0 0 3px 0.5px #8d8d8d;
   margin-top: 25px; 
   border: solid 9px white;
+  user-select: none;
 }
 
 .cert-pic {
@@ -476,6 +477,7 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 20px;
+  user-select: none;
 }
 
 .experience-details {
