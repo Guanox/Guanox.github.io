@@ -11,7 +11,7 @@ img {
 
 .head {
 
-  color: #fff;
+  color: rgb(73, 80, 88);
   min-height: 40vh;
 
   display: -webkit-box;
@@ -31,13 +31,87 @@ img {
 }
 
 .head-title {
-  display: inline-block;
+  display: block;
   -webkit-transition: color ease-in-out 0.3s;
   transition: color ease-in-out 0.3s;
-  font-size: 56px;
-  font-size: 3.5rem;
+  font-size: 40px;
+  font-size: 2.4rem;
+  text-align: center;
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-weight: bold;
+}
+
+.head-about {
+  max-width: 400px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  display: block;
+  text-align: center;
+}
+
+.head-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.head-buttons > * {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* CSS */
+.head-button {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  padding: 6px 16px;
+  width: 160px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.head-button:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.head-button:hover {
+  background-color: #2c974b;
+}
+
+.head-button:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.head-button:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.head-button:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
 .animated {
@@ -83,28 +157,16 @@ img {
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   text-align: center;
   /* color: rgba(255, 255, 255, 0); */
-  margin-top: 10px;
-  font-size: 20px;
-  font-size: 1.25rem;
-}
-
-.head-buttons {
-  position: absolute;
-  top: 32px;
-  top: 2rem;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+  margin-top: 5px;
+  font-size: 16px;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 
 .head-icon {
   font-size: 32px;
   font-size: 2rem;  
   margin: 0 5px;
-}
-
-.head-buttons a {
-  color: inherit;
 }
 
 .head-menu-wrap {
@@ -228,23 +290,6 @@ img {
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
-
-/* .section-wrapper:nth-child(odd) {
-  background: url(../images/background.png);
-  background-repeat: repeat;
-}
-
-.section-wrapper:nth-child(odd) .section-heading {
-  color: #fff;
-}
-
-.section-wrapper:nth-child(odd) .skills-subsection {
-  color: #fff;
-}
-
-.section-wrapper:nth-child(odd) .paragraph-text {
-  color: #fff;
-} */
 
 .paragraph-text {
   font-family: 'PT Sans', sans-serif;
@@ -405,9 +450,10 @@ img {
 
 .profile-pic {
   border-radius: 50%;
-  width: 170px;
-  height: 170px;
-  border: solid 2px white;
+  width: 300px;
+  height: 300px;
+  margin-top: 25px; 
+  border: solid 9px white;
 }
 
 .cert-pic {
@@ -451,9 +497,8 @@ img {
   font-size: 1.1rem;
 }
 
-#nav {
-  background: url(../images/background.png);
-  background-repeat: repeat;
+.head {
+  background: rgb(204, 234, 242);
 }
 
 a {
@@ -507,107 +552,6 @@ a {
   margin-right: 0px;
 }
 
-/* Here follow all the media queries */
-@media screen and (max-width: 850px) {
-
-  .section {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
-@media screen and (max-width: 775px) {
-  .project-technologies {
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    margin: 20px auto;
-  }
-}
-
-@media screen and (max-width: 600px) {
-
-  .head-menu-wrap {
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    width: 80%;
-  }
-
-  #nav {
-    background-attachment: unset;
-  }
-
-  .head-title {
-    display: block;
-    text-align: center;
-    font-size: 2.75rem;
-  }
-  
-  .head-punchline {
-    text-align: center;
-  }
-
-  .skills-grid {
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
-    -ms-grid-rows: auto auto;
-        grid-template-rows: auto auto;
-  }
-
-  .set-size {
-    font-size: 8em;
-  }
-  .pie-wrapper .label {
-    font-size: 0.9rem;
-    top: 3rem;
-  }
-  
-  .projects-grid {
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
-  }
-
-  .projects-wrapper {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
-    grid-gap: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-@media screen and (max-height: 450px) and (max-width: 600px) {
-  .head {
-    min-height: 525px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .head-menu-wrap {
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-  }
-}
-
-@media screen and (max-height: 525px) {
-
-  .head {
-    min-height: 500px;
-  }
-
-  .head-menu-wrap {
-    bottom: 15px;
-  }
-}
 
 /* width */
 ::-webkit-scrollbar {
