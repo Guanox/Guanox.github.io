@@ -14,6 +14,23 @@
                 <button class="contact-button">SEND MESSAGE</button>
             </form>
 
+            <div class="contact-links">
+                <span class="hint--bottom contact-link" aria-label="Email">
+                    <div class="contact-link-wrapper">
+                        <a href="mailto:{{ site.email }}"><i class="head-icon fas fa-envelope" target="_blank"></i></a>
+                    </div>
+                </span>
+                <span class="hint--bottom contact-link" aria-label="Linkedin">
+                    <div class="contact-link-wrapper">
+                        <a href="https://dk.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><i class="head-icon fab fa-linkedin"></i></a>
+                    </div>
+                </span>
+                <span class="hint--bottom contact-link" aria-label="GitHub">
+                    <div class="contact-link-wrapper">
+                        <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="head-icon fab fa-github"></i></a>
+                    </div>
+                </span>
+            </div>
         </div>
     </section>
 </div>

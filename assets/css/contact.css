@@ -107,3 +107,14 @@ button {
   background-color: #949494;
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
+
+.contact-links {
+
+}
+
+.contact-link {
+  margin: 0 23px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 2rem;
+}
