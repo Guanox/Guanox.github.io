@@ -104,7 +104,7 @@ button {
 }
 
 .contact-button:active {
-  background-color: #213439;
+  background-color: #263c41;
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
