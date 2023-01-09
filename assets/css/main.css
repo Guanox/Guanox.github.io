@@ -10,7 +10,7 @@ img {
 }
 
 .hero {
-
+  background: rgb(204, 234, 242);
   color: rgb(73, 80, 88);
   min-height: 40vh;
 
@@ -26,8 +26,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-
-  background: transparent;
 }
 
 .hero-title {
@@ -206,9 +204,9 @@ img {
 .skills-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 40% 60%;
-      grid-template-columns: 40% 60%;
-  grid-gap: 20px;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  grid-gap: 10px;
 }
 
 .technical-skills {
@@ -332,7 +330,6 @@ img {
 }
 
 .footer {
-  background-color: #444;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,6 +343,7 @@ img {
   color: #fff;
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
 
+  background-color: #444;
   background: url(../images/background.png);
   background-repeat: repeat;
   background-attachment: fixed;
@@ -495,26 +493,10 @@ img {
   font-size: 1.1rem;
 }
 
-.hero {
-  background: rgb(204, 234, 242);
-}
-
 a {
   color: #222;
 }
 
-.extra-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 80px;
-}
 
 .head-inner-wrap {
   

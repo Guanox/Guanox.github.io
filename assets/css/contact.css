@@ -1,0 +1,109 @@
+.contact-form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+}
+
+.contact-title {
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgb(73, 80, 88);
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.contact-input {
+    border-radius: 5px;
+    padding: 13px;
+    color: rgb(73, 80, 88);
+    font-size: 0.75rem;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+    border: 1px solid grey;
+}
+
+.contact-name {
+    align-self: flex-start;
+    width: 50%;
+}
+
+.contact-message {
+    align-self: stretch;
+    resize: none;
+    height: 130px;
+}
+
+button {
+    align-self: flex-start;
+    border-radius: 5px;
+}
+
+.contact-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+}
+
+
+/* CSS */
+.contact-button {
+  appearance: none;
+  background-color: #304b51;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  padding: 6px 16px;
+  width: 160px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.contact-button:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.contact-button:hover {
+  background-color: #42666e;
+}
+
+.contact-button:focus {
+  box-shadow: rgba(163, 164, 164, 0.4) 0 0 0 3px;
+  outline: none;
+}
+
+.contact-button:disabled {
+  background-color: #d9dad9;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.contact-button:active {
+  background-color: #949494;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
