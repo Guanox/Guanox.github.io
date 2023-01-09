@@ -58,7 +58,7 @@ button {
 /* CSS */
 .contact-button {
   appearance: none;
-  background-color: #304b51;
+  background-color: #334d53;
   border: 1px solid rgba(27, 31, 35, .15);
   border-radius: 6px;
   box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
@@ -88,7 +88,7 @@ button {
 }
 
 .contact-button:hover {
-  background-color: #42666e;
+  background-color: #2c444a;
 }
 
 .contact-button:focus {
@@ -104,7 +104,7 @@ button {
 }
 
 .contact-button:active {
-  background-color: #949494;
+  background-color: #213439;
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
