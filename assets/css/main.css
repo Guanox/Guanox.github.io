@@ -189,7 +189,7 @@ img {
   text-align: justify;
 }
 
-.progress-bars {
+.technical-skills-grid {
   padding-right: 15px;
   margin-top: 20px;
   overflow-y: auto;
@@ -218,10 +218,6 @@ img {
   margin-left: -15px;
 }
 
-.technical-skills img {
-  width: 130px;
-  height: 130px;
-}
 
 .badges {
   display: flex;
@@ -446,11 +442,6 @@ img {
   margin-top: 25px; 
   border: solid 9px white;
   user-select: none;
-}
-
-.cert-pic {
-  width: 120;
-  height: 120;
 }
 
 .profile-pic:hover {

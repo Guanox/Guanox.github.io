@@ -95,6 +95,13 @@
         -ms-flex-pack: center;
         justify-content: center;
     }
+
+    .owl-carousel .owl-item img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 500px) {
