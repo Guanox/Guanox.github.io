@@ -16,17 +16,9 @@
         width: fit-content;
         margin: 20px auto;
     }
-
-    .contact-form {
-        width: 620px;
-    }
 }
 
-@media screen and (max-width: 700px) {
-    .contact-form {
-        width: 450px;
-    }
-}
+
 
 
 @media screen and (max-width: 600px) {
@@ -37,10 +29,6 @@
         grid-column-gap: 10px;
         grid-row-gap: 10px;
         width: 80%;
-    }
-
-    .contact-form {
-        width: 450px;
     }
 
     .hero {
@@ -104,12 +92,6 @@
     }
 }
 
-@media screen and (max-width: 500px) {
-    .contact-form {
-        width: 350px;
-    }
-}
-
 @media screen and (max-height: 450px) and (max-width: 600px) {
     .hero {
         min-height: 525px;
@@ -122,10 +104,6 @@
         grid-template-columns: auto auto;
         grid-column-gap: 10px;
         grid-row-gap: 10px;
-    }
-
-    .contact-form {
-        width: 300px;
     }
 }
 

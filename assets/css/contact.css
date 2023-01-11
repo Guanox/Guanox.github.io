@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 700px;
+    width: 100%;
 }
 
 .contact-title {
