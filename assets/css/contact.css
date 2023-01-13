@@ -7,6 +7,8 @@
 
 .contact-name-email {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .contact-title {
@@ -29,13 +31,10 @@
 }
 
 .contact-name {
-    align-self: flex-start;
     width: 45%;
-    margin-right: 10px;
 }
 
 .contact-email {
-  align-self: flex-start;
   width: 45%;
 }
 
