@@ -90,6 +90,14 @@
         margin-right: auto;
         width: 70%;
     }
+
+    .contact-email {
+        width: 100%;
+    }
+
+    .contact-name {
+        width: 100%;
+    }
 }
 
 @media screen and (max-height: 450px) and (max-width: 600px) {
