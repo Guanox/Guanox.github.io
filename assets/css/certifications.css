@@ -7,5 +7,8 @@
 .owl-carousel .owl-item cert-description {
     text-align: center;
     font-weight: bold;
-    font-size: 0.9rem;
+    color: #686868;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-top: 10px
 }
