@@ -5,6 +5,10 @@
     width: 100%;
 }
 
+.contact-name-email {
+  display: flex;
+}
+
 .contact-title {
     font-family: 'PT Sans', Arial, Helvetica, sans-serif;
     font-size: 1rem;
@@ -26,7 +30,13 @@
 
 .contact-name {
     align-self: flex-start;
-    width: 50%;
+    width: 45%;
+    margin-right: 10px;
+}
+
+.contact-email {
+  align-self: flex-start;
+  width: 45%;
 }
 
 .contact-message {
