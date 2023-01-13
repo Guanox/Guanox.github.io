@@ -98,6 +98,10 @@
     .contact-name {
         width: 100%;
     }
+
+    .contact-button {
+        width: 100%;
+    }
 }
 
 @media screen and (max-height: 450px) and (max-width: 600px) {
