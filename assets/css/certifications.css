@@ -3,3 +3,9 @@
     display: inline-block;
     width: 100%;
 }
+
+.owl-carousel .owl-item cert-description {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
