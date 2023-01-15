@@ -1,42 +1,75 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="google-site-verification" content="k4p92PduVR_7ZqAlB8-OMnONNOl9GkkmUh4dlKfbY7o" />
-        
-        <link rel="stylesheet" href="vendor/css/normalize.css"/>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="vendor/css/hint.base.min.css"/>
-        <link rel="stylesheet" href="vendor/css/semi-transparent-buttons.css"/>
-        <link rel="stylesheet" href="assets/css/progress.css"/>
-        <link rel="stylesheet" href="assets/css/main.css"/>
-        <link rel="stylesheet" href="assets/css/skill-card.css"/>
-        <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" data-css-polyfilled="true">
-        <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" data-css-polyfilled="true"/>
-        <link rel="stylesheet" href="assets/css/contact.css"/>
-        <link rel="stylesheet" href="assets/css/certifications.css"/>
-        <link rel="stylesheet" href="assets/css/viewport.css"/>
-        <link rel="shortcut icon" href="assets/images/favicon.ico" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-        <meta name="description" content="Portfolio - Kaj Printz Madsen | Web development">
-    </head>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="k4p92PduVR_7ZqAlB8-OMnONNOl9GkkmUh4dlKfbY7o" />
+
+    <link rel="stylesheet" href="vendor/css/normalize.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/css/hint.base.min.css" />
+    <link rel="stylesheet" href="vendor/css/semi-transparent-buttons.css" />
+    <link rel="stylesheet" href="assets/css/progress.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/skill-card.css" />
+    <link rel="stylesheet"
+        href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css"
+        data-css-polyfilled="true">
+    <link rel="stylesheet"
+        href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css"
+        data-css-polyfilled="true" />
+    <link rel="stylesheet" href="assets/css/contact.css" />
+    <link rel="stylesheet" href="assets/css/certifications.css" />
+    <link rel="stylesheet" href="assets/css/viewport.css" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <meta name="description" content="Portfolio - Kaj Printz Madsen | Web development">
+</head>
+
 <body>
     <section class="hero">
         <div class="hero-inner-wrap">
             <div class="profile-pic-div animated">
-                <a class="profile-pic-link"><img src="assets/images/pp.jpg" class="profile-pic"/></a>
+                <a class="profile-pic-link"><img src="assets/images/pp.jpg" class="profile-pic" /></a>
             </div>
-            <div class="hero-name hero-title animated" id="hero-name">KAJ PRINTZ MADSEN</div>
-            <div class="hero-punchline animated">Web & Backend Engineer</div>
+            <div class="hero-content">
+                <div class="hero-name hero-title animated" id="hero-name">KAJ PRINTZ MADSEN</div>
+                <div class="hero-punchline animated">Web & Backend Engineer</div>
 
-            <div class="hero-about animated">
-                Hi there! I am a software developer who values continuous growth and development, 
-                both personally and professionally. 
-            </div>
-            <div class="hero-buttons animated">
-                <button class="hero-button hire-me-button" href="#extra">CONTACT ME</button>
-                <button class="hero-button" onclick="window.open('assets/pdf/CV.pdf', '_blank')">DOWNLOAD CV</button>
+                <div class="hero-about animated">
+                    Hi there! I am a software developer who values continuous growth and development,
+                    both personally and professionally.
+                </div>
+
+                <div class="hero-contact">
+                    <div class="hero-contact-item"><i class="fa-solid fa-phone hero-contact-icon"></i> (+45) 31429433</div> 
+                    <a href="mailto:kajprintz@gmail.com">
+                        <div class="hero-contact-item"><i class="fa-solid fa-at hero-contact-icon"></i> kajprintz@gmail.com</div> 
+                    </a>
+                    <div class="hero-contact-item"><i class="fa-solid fa-location-dot hero-contact-icon"></i> 9000 Aalborg</div> 
+                </div>
+
+
+                <!-- <div class="contact-links">
+                    <span class="hint--bottom contact-link" aria-label="Linkedin">
+                        <div class="contact-link-wrapper">
+                            <a href="https://dk.linkedin.com/in/kaj-printz-madsen-b297b5167" target="_blank"><i class="head-icon fab fa-linkedin"></i></a>
+                        </div>
+                    </span>
+                    <span class="hint--bottom contact-link" aria-label="GitHub">
+                        <div class="contact-link-wrapper">
+                            <a href="https://github.com/nc-kpm" target="_blank"><i class="head-icon fab fa-github"></i></a>
+                        </div>
+                    </span>
+                </div> -->
+
+                <div class="hero-buttons animated">
+                    <button class="hero-button hire-me-button" href="#extra">CONTACT ME</button>
+                    <button class="hero-button" onclick="window.open('assets/pdf/CV.pdf', '_blank')">DOWNLOAD
+                        CV</button>
+                </div>
             </div>
         </div>
     </section>
@@ -45,35 +78,50 @@
         <section class="section skills" id="skills">
             <div>
                 <div class="section-heading" id="skills-text">TECHNICAL SKILLS</div>
-                    <div class="what-i-do">
-                        <p class="paragraph-text center-align">
-                            I'm a web & backend engineer fluent in modern web development. I have a big passion for developing high quality software that stands the test of time. With 3 years of experience with cloud & CI/CD technologies, hereunder, AWS & Azure I know the full lifecycle of a program from coding to testing, deployment and maintenance.
-                        </p>
+                <div class="what-i-do">
+                    <p class="paragraph-text center-align">
+                        I'm a web & backend engineer fluent in modern web development. I have a big passion for
+                        developing high quality software that stands the test of time. With 3 years of experience with
+                        cloud & CI/CD technologies, hereunder, AWS & Azure I know the full lifecycle of a program from
+                        coding to testing, deployment and maintenance.
+                    </p>
+                </div>
+                <div class="technical-skills">
+                    <div class="technical-skills-grid">
+                        <div class="skill-card skill-card-hover"
+                            data-description="With 4 years of professional experience in PHP, I have honed my skills and gained a deep understanding of this language.">
+                            <i class="fa-brands fa-php"></i> PHP
+                        </div>
+                        <div class="skill-card"
+                            data-description="Python is my favorite language due to its mature libraries and the ability to quickly develop and prototype ideas.">
+                            <i class="fa-brands fa-python"></i> Python
+                        </div>
+                        <div class="skill-card"
+                            data-description="I have experience with C# and ASP.NET, including working on various backend services.">
+                            <i class="fa-brands fa-windows"></i> C#/.net
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-brands fa-java"></i> Java
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-brands fa-docker"></i> Docker
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-brands fa-aws"></i> AWS
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-microsoft"></i> Azure
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-brands fa-linux"></i> Linux
+                        </div>
+                        <div class="skill-card">
+                            <i class="fa-brands fa-angular"></i> Angular
+                        </div>
                     </div>
-                    <div class="technical-skills">
-                        <div class="technical-skills-grid">
-                            <div class="skill-card skill-card-hover" data-description="With 4 years of professional experience in PHP, I have honed my skills and gained a deep understanding of this language.">
-                                <i class="fa-brands fa-php"></i>  PHP</div>
-                            <div class="skill-card" data-description="Python is my favorite language due to its mature libraries and the ability to quickly develop and prototype ideas.">
-                                <i class="fa-brands fa-python"></i>  Python</div>
-                            <div class="skill-card" data-description="I have experience with C# and ASP.NET, including working on various backend services.">
-                                    <i class="fa-brands fa-windows"></i>  C#/.net</div>
-                            <div class="skill-card">
-                                <i class="fa-brands fa-java"></i>  Java</div>
-                            <div class="skill-card">
-                                <i class="fa-brands fa-docker"></i>  Docker</div>
-                            <div class="skill-card">
-                                <i class="fa-brands fa-aws"></i>  AWS</div>
-                            <div class="skill-card">
-                                <i class="fab fa-microsoft"></i>  Azure</div>
-                            <div class="skill-card">
-                                <i class="fa-brands fa-linux"></i>  Linux</div>
-                            <div class="skill-card">
-                                <i class="fa-brands fa-angular"></i>  Angular</div>
-                        </div>
-                        <div class="skill-description-container">
-                            <div class="skill-description"></div>
-                        </div>
+                    <div class="skill-description-container">
+                        <div class="skill-description"></div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -86,7 +134,8 @@
                     <div class="owl-carousel owl-theme">
                         <div class="carousel-item">
                             <img src="assets/images/certs/aws-certified-cloud-practitioner.png" class="cert-pic">
-                            <div class="cert-description">Issued October 10, 2022</div>                    </div>
+                            <div class="cert-description">Issued October 10, 2022</div>
+                        </div>
                         <div class="carousel-item">
                             <img src="assets/images/certs/microsoft-certified-azure-fundamentals.png" class="cert-pic">
                             <div class="cert-description">Issued December 11, 2022</div>
@@ -106,42 +155,30 @@
             <div>
                 <div class="section-heading" id="chat-text">CONTACT</div>
                 <p class="paragraph-text justify-text">
-                    I'd love to hear from you! I'm open to collaborations, especially on open source projects. Interesting work opportunity? Shoot.
-                    Please feel free to send me a message to me for anything. It might take me a couple days to get back, but rest assured, you'll hear from me.
+                    I'd love to hear from you! I'm open to collaborations, especially on open source projects.
+                    Interesting work opportunity? Shoot.
+                    Please feel free to send me a message to me for anything. It might take me a couple days to get
+                    back, but rest assured, you'll hear from me.
                 </p>
 
                 <div class="contact-title">MESSAGE</div>
                 <form class="contact-form" action="https://airform.io/kajprintz@gmail.com" method="post">
                     <div class="contact-name-email">
                         <input class="contact-name contact-input" type="text" name="name" placeholder="NAME" required>
-                        <input class="contact-email contact-input" type="email" name="email" placeholder="EMAIL" required>
+                        <input class="contact-email contact-input" type="email" name="email" placeholder="EMAIL"
+                            required>
                     </div>
-                    <textarea class="contact-message contact-input" name="message" placeholder="MESSAGE" required></textarea>
-                    <input type="submit" value="SEND MESSAGE" class="contact-button"/>
+                    <textarea class="contact-message contact-input" name="message" placeholder="MESSAGE"
+                        required></textarea>
+                    <input type="submit" value="SEND MESSAGE" class="contact-button" />
                 </form>
 
-                <div class="contact-links">
-                    <span class="hint--bottom contact-link" aria-label="Email">
-                        <div class="contact-link-wrapper">
-                            <a href="mailto:kajprintz@gmail.com"><i class="head-icon fas fa-envelope" target="_blank"></i></a>
-                        </div>
-                    </span>
-                    <span class="hint--bottom contact-link" aria-label="Linkedin">
-                        <div class="contact-link-wrapper">
-                            <a href="https://dk.linkedin.com/in/kaj-printz-madsen-b297b5167" target="_blank"><i class="head-icon fab fa-linkedin"></i></a>
-                        </div>
-                    </span>
-                    <span class="hint--bottom contact-link" aria-label="GitHub">
-                        <div class="contact-link-wrapper">
-                            <a href="https://github.com/nc-kpm" target="_blank"><i class="head-icon fab fa-github"></i></a>
-                        </div>
-                    </span>
-                </div>
             </div>
         </section>
     </div>
     <footer class="footer footer-text">
-        KAJ PRINTZ MADSEN &copy; <script>document.write(new Date().getFullYear());</script>
+        KAJ PRINTZ MADSEN &copy;
+        <script>document.write(new Date().getFullYear());</script>
     </footer>
 
     <script src="vendor/js/jquery-3.3.1.js"></script>
@@ -154,4 +191,5 @@
     <script src="assets/js/carousel.js"></script>
     <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 </body>
+
 </html>

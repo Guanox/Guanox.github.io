@@ -3,6 +3,11 @@ body {
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
   background-color: #f7f7f7;;
+  /* width: 100%; */
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
@@ -11,6 +16,7 @@ img {
 }
 
 .hero {
+  width: 100%;
   background: #ABD6DFFF;
   color: rgb(73, 80, 88);
   min-height: 40vh;
@@ -29,24 +35,58 @@ img {
   position: relative;
 }
 
+.hero-inner-wrap {
+  display: flex;
+}
+
+.hero-content {
+  align-self: end;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.hero-contact-item {
+  color: rgb(73, 80, 88);
+}
+
+.hero-contact-icon {
+  box-shadow: 0 0 3px 0.5px #8d8d8d;
+  background-color: #f7f7f7;
+  border-radius: 50%;
+  width: 12px;
+  padding: 5px;
+  text-align: center;
+}
+
+.hero-contact {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  width: 100%;
+  font-size: 0.75rem;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
 .hero-title {
   display: block;
   -webkit-transition: color ease-in-out 0.3s;
   transition: color ease-in-out 0.3s;
-  font-size: 40px;
+  font-size: 35px;
   font-size: 2.4rem;
   text-align: center;
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .hero-about {
   max-width: 400px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 15px auto;  
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
-  display: block;
+  display: flex;
   text-align: center;
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .hero-buttons {
@@ -155,10 +195,9 @@ img {
 .hero-punchline {
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   text-align: center;
-  /* color: rgba(255, 255, 255, 0); */
   margin-top: 5px;
   font-size: 16px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
@@ -437,11 +476,11 @@ img {
 
 .profile-pic {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 290px;
+  height: auto;
   box-shadow: 0 0 3px 0.5px #8d8d8d;
   margin-top: 25px; 
-  border: solid 9px white;
+  border: solid 9px #f7f7f7;
   user-select: none;
 }
 

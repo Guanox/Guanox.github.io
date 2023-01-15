@@ -5,6 +5,14 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    .hero-inner-wrap {
+        display: block;
+    }
+
+    .hero-content {
+        margin-left: 0px;
+    }
 }
 
 @media screen and (max-width: 775px) {
@@ -50,6 +58,10 @@
         text-align: center;
         font-size: 16px;
         font-size: 0.9rem;
+    }
+
+    .hero-buttons {
+        margin-top: 30px;
     }
 
     .skills-grid {
@@ -117,6 +129,15 @@
         grid-column-gap: 10px;
         grid-row-gap: 10px;
     }
+
+    .hero-about {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+
 }
 
 @media screen and (max-height: 525px) {
