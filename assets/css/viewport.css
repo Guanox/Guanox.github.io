@@ -133,12 +133,16 @@
     .hero-about {
         width: 350px;
     }
+
+    .hero-contact-item {
+        font-size: 0.7rem;
+    }
+
+    .hero-contact {
+        justify-content: space-evenly;
+    }
 }
 
-@media screen and (max-width: 450px) {
-
-
-}
 
 @media screen and (max-height: 525px) {
 
