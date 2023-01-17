@@ -47,6 +47,8 @@ img {
 
 .hero-contact-item {
   color: rgb(73, 80, 88);
+  margin: 0 10px;
+
 }
 
 .hero-contact-icon {
@@ -65,7 +67,7 @@ img {
   width: 100%;
   font-size: 0.75rem;
   font-weight: bold;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .hero-title {
