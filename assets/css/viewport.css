@@ -27,6 +27,20 @@
 }
 
 
+@media screen and (max-width: 700px) {
+    .technical-skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+        grid-gap: 20px 0px;
+    }
+
+    .skill-card {
+        width: 80%;
+        justify-self: center;
+        margin: 0px 0px;
+    }
+}
+
 
 
 @media screen and (max-width: 600px) {
@@ -148,5 +162,9 @@
 
     .hero-menu-wrap {
         bottom: 15px;
+    }
+
+    .terraform-logo {
+        font-size: 20px;
     }
 }
