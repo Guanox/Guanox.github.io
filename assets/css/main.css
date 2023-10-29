@@ -480,11 +480,11 @@ img {
 
 .profile-pic {
   border-radius: 50%;
-  width: 290px;
+  width: 270px;
   height: auto;
   box-shadow: 0 0 3px 0.5px #8d8d8d;
   margin-top: 25px; 
-  border: solid 9px #f7f7f7;
+  border: solid 7px #f7f7f7;
   user-select: none;
 }
 
